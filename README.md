@@ -112,10 +112,17 @@ You can see that only **CalculateExchangeValues** function is public owing to Ca
 
 
 
-## 4. Run the main.py in virtualenv
+## 4 fixer.io account for api key
+
+In https://fixer.io/ , you need to get account for free api key and paste your key to **apikey** into common.js.
+
+```JavaScript
+var apiUrlBase = 'http://data.fixer.io/api/latest?access_key=';
+var apiKey = 'your api key via fixer.io';
+```
+
+## 5. Run the main.py in virtualenv
 
 ```
 $ (venv) python main.py
 ```
-
-
