@@ -112,7 +112,7 @@ You can see that only **CalculateExchangeValues** function is public owing to Ca
 
 
 
-## 4 fixer.io account for api key
+## 4. fixer.io account for api key
 
 In https://fixer.io/ , you need to get account for free api key and paste your key to **apikey** into common.js.
 
